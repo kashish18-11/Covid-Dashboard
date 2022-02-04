@@ -1,0 +1,46 @@
+
+/* -------- LOGO -------- */
+#dashabout{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 1200px;
+    width: 100%;
+    height: 80px;
+
+    margin: 0 auto;
+
+    background-color: #F3F2F2;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.logo img{
+    width: 60px;
+}
+.logo p {
+    font-weight: bold;
+    color: #6a149b;
+}
+#covidnav{
+    
+}
+
+#covidnav ul{
+    display: flex;
+    align-items: center;
+}
+#covidnav ul li{
+    list-style: none;
+}
+#covidnav ul li:last-child{
+    padding-right: 20px;
+}
+#covidnav ul li a {
+    text-decoration: none;
+    color: #6a149b;
+    padding: 10px;
+}
